@@ -9,3 +9,7 @@ body {
   background-color:lightskyblue;
   font-family: sans-serif;
 }
+
+#ball {
+  margin-left: 40%;
+}
