@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-color:lightskyblue;
   font-family: sans-serif;
+  animation: backgroundAnimation 15s infinite;
 }
 
 #ball {
@@ -18,8 +19,23 @@ body {
   margin-left: 30%;
 }
 
-<style> .zentrierter-text {
+.zentrierter-text {
   text-align: center;
 }
 
-<h1 class
+@keyframes backgroundAnimation {
+  0% { background-color: lightblue; }
+20%  { background-color: lightgreen ;}
+40%  { background-color: lightyellow ;}
+60%  { background-color: gold;}
+80%  { background-color: darkseagreen;}
+100% { background-color: lightblue ;}
+
+}
+
+
+
+
+
+
+
