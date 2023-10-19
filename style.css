@@ -32,7 +32,9 @@ body {
 100% { background-color: lightblue ;}
 
 }
-
+.zentrierter-text {
+  text-align: center;
+}
 
 
 
