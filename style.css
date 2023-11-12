@@ -6,6 +6,39 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color:lightskyblue;
   font-family: sans-serif;
+  animation: backgroundAnimation 15s infinite;
 }
+
+#ball {
+  margin-left: 40%;
+}
+
+#fifa {
+  margin-left: 30%;
+}
+
+.zentrierter-text {
+  text-align: center;
+}
+
+@keyframes backgroundAnimation {
+  0% { background-color: lightblue; }
+20%  { background-color: lightgreen ;}
+40%  { background-color: lightyellow ;}
+60%  { background-color: gold;}
+80%  { background-color: darkseagreen;}
+100% { background-color: lightblue ;}
+
+}
+.zentrierter-text {
+  text-align: center;
+}
+
+
+
+
+
+
+
